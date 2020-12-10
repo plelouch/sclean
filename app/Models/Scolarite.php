@@ -10,7 +10,7 @@ class Scolarite extends Model
     use HasFactory;
 
     protected $fillable = [
-        "mtTotal", "mtPaye", "debut", "fin", "eleve_id"
+        "mtTotal", "mtPaye", "eleve_id"
     ];
 
     public function student()

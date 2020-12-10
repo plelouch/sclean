@@ -109,10 +109,6 @@
             ],
             "description": "BaconQrCode is a QR code generator for PHP.",
             "homepage": "https://github.com/Bacon/BaconQrCode",
-            "support": {
-                "issues": "https://github.com/Bacon/BaconQrCode/issues",
-                "source": "https://github.com/Bacon/BaconQrCode/tree/2.0.3"
-            },
             "time": "2020-10-30T02:02:47+00:00"
         },
         {
@@ -212,10 +208,6 @@
                 "enum",
                 "map"
             ],
-            "support": {
-                "issues": "https://github.com/DASPRiD/Enum/issues",
-                "source": "https://github.com/DASPRiD/Enum/tree/1.0.3"
-            },
             "time": "2020-10-02T16:03:48+00:00"
         },
         {
@@ -1038,10 +1030,6 @@
                 "crawlerdetect",
                 "php crawler detect"
             ],
-            "support": {
-                "issues": "https://github.com/JayBizzle/Crawler-Detect/issues",
-                "source": "https://github.com/JayBizzle/Crawler-Detect/tree/v1.2.103"
-            },
             "time": "2020-11-23T19:49:25+00:00"
         },
         {
@@ -1111,10 +1099,6 @@
                 "user agent",
                 "useragent"
             ],
-            "support": {
-                "issues": "https://github.com/jenssegers/agent/issues",
-                "source": "https://github.com/jenssegers/agent/tree/v2.6.4"
-            },
             "funding": [
                 {
                     "url": "https://github.com/jenssegers",
@@ -1184,10 +1168,6 @@
                 "auth",
                 "laravel"
             ],
-            "support": {
-                "issues": "https://github.com/laravel/fortify/issues",
-                "source": "https://github.com/laravel/fortify"
-            },
             "time": "2020-11-24T16:52:33+00:00"
         },
         {
@@ -1359,16 +1339,16 @@
         },
         {
             "name": "laravel/jetstream",
-            "version": "v1.6.3",
+            "version": "v1.6.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/jetstream.git",
-                "reference": "c32ee30f80db9eeaa07a71cc37e5ddba61e87e8a"
+                "reference": "2668f126688aee6187d50939d1afcf496532485c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/jetstream/zipball/c32ee30f80db9eeaa07a71cc37e5ddba61e87e8a",
-                "reference": "c32ee30f80db9eeaa07a71cc37e5ddba61e87e8a",
+                "url": "https://api.github.com/repos/laravel/jetstream/zipball/2668f126688aee6187d50939d1afcf496532485c",
+                "reference": "2668f126688aee6187d50939d1afcf496532485c",
                 "shasum": ""
             },
             "require": {
@@ -1417,11 +1397,7 @@
                 "laravel",
                 "tailwind"
             ],
-            "support": {
-                "issues": "https://github.com/laravel/jetstream/issues",
-                "source": "https://github.com/laravel/jetstream"
-            },
-            "time": "2020-12-01T15:17:12+00:00"
+            "time": "2020-12-08T18:37:50+00:00"
         },
         {
             "name": "laravel/sanctum",
@@ -1928,10 +1904,6 @@
                 "mobile detector",
                 "php mobile detect"
             ],
-            "support": {
-                "issues": "https://github.com/serbanghita/Mobile-Detect/issues",
-                "source": "https://github.com/serbanghita/Mobile-Detect/tree/2.8.34"
-            },
             "time": "2019-09-18T18:44:20+00:00"
         },
         {
@@ -2303,11 +2275,6 @@
                 "hex2bin",
                 "rfc4648"
             ],
-            "support": {
-                "email": "info@paragonie.com",
-                "issues": "https://github.com/paragonie/constant_time_encoding/issues",
-                "source": "https://github.com/paragonie/constant_time_encoding"
-            },
             "time": "2020-12-06T15:14:20+00:00"
         },
         {
@@ -2425,10 +2392,6 @@
                 "Two Factor Authentication",
                 "google2fa"
             ],
-            "support": {
-                "issues": "https://github.com/antonioribeiro/google2fa/issues",
-                "source": "https://github.com/antonioribeiro/google2fa/tree/8.0.0"
-            },
             "time": "2020-04-05T10:47:18+00:00"
         },
         {
@@ -7953,5 +7916,5 @@
         "php": "^7.3|^8.0"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.0.0"
+    "plugin-api-version": "1.1.0"
 }

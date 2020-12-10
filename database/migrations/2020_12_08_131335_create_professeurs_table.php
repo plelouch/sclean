@@ -18,9 +18,10 @@ class CreateProfesseursTable extends Migration
             $table->string('nom', 45)->nullable();
             $table->string('prenoms', 45)->nullable();
             $table->string('contact', 30)->nullable();
-            $table->string('addr', 45)->nullable();
+            $table->string('addr')->nullable();
             $table->string('diplome', 45)->nullable();
             $table->string('matricule', 10)->nullable();
+            $table->boolean("isDispo")->default(true);
             $table->timestamps();
         });
         Schema::table('parcours', function (Blueprint $table) {

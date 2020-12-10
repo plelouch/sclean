@@ -18,4 +18,9 @@ class Parcour extends Model
     {
         return $this->belongsTo('App\Models\Professeur');
     }
+
+    public function echeancier()
+    {
+        return $this->hasMany('App\Models\Echeancier');
+    }
 }

@@ -11,7 +11,7 @@ class Professeur extends Model
 
     protected $fillable = [
         "nom", "prenoms", "contact",
-        "addr", "diplome", "matricule"
+        "addr", "diplome", "matricule", 'isDispo'
     ];
 
     public function parcour()
