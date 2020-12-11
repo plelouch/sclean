@@ -10,13 +10,33 @@
             @csrf
 
             <div>
-                <x-jet-label for="name" value="{{ __('Name') }}" />
-                <x-jet-input id="name" class="block mt-1 w-full" type="text" name="name" :value="old('name')" required autofocus autocomplete="name" />
+                <x-jet-label for="name" value="{{ __('Nom') }}" />
+                <x-jet-input id="nom" class="block mt-1 w-full" type="text" name="nom" :value="old('nom')" required autofocus autocomplete="name" />
             </div>
 
             <div class="mt-4">
-                <x-jet-label for="email" value="{{ __('Email') }}" />
-                <x-jet-input id="email" class="block mt-1 w-full" type="email" name="email" :value="old('email')" required />
+                <x-jet-label for="email" value="{{ __('Prenom') }}" />
+                <x-jet-input id="prenoms" class="block mt-1 w-full" type="text" name="prenoms" :value="old('prenoms')" required />
+            </div>
+
+            <div>
+                <x-jet-label for="login" value="{{ __('Nom utilisateur') }}" />
+                <x-jet-input id="login" class="block mt-1 w-full" type="text" name="login" :value="old('login')" required autofocus autocomplete="login" />
+            </div>
+
+            <div class="mt-4">
+                <x-jet-label for="contact" value="{{ __('Contact') }}" />
+                <x-jet-input id="contact" class="block mt-1 w-full" type="text" name="contact" :value="old('contact')" required />
+            </div>
+
+            <div class="mt-4">
+                <x-jet-label for="categ" value="{{ __('Type') }}" />
+                <select id="categ" name="categ" required
+                        class="mt-1 block w-full py-2 px-3 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm">
+                    <option>Sélectionnez Le Type</option>
+                    <option value="Admin">Administrateur</option>
+                    <option value="User">Utilisateur</option>
+                </select>
             </div>
 
             <div class="mt-4">

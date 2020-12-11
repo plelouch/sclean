@@ -35,6 +35,30 @@
                 </a>
             </li>
             <li class="item">
+                <a href="{{ route('student_index') }}" class="item-link md:py-3 hover:text-white hover:border-pink-500">
+                    <i class="fa fa-users pr-0 md:pr-3"></i>
+                    <span class="pb-1 md:pb-0 text-xs md:text-base text-gray-600 md:text-gray-400 block md:inline-block">
+                        Ges des Matières
+                    </span>
+                </a>
+            </li>
+            <li class="item">
+                <a href="{{ route('student_index') }}" class="item-link md:py-3 hover:text-white hover:border-pink-500">
+                    <i class="fa fa-users pr-0 md:pr-3"></i>
+                    <span class="pb-1 md:pb-0 text-xs md:text-base text-gray-600 md:text-gray-400 block md:inline-block">
+                        Ges des Exams
+                    </span>
+                </a>
+            </li>
+            <li class="item">
+                <a href="{{ route('student_index') }}" class="item-link md:py-3 hover:text-white hover:border-pink-500">
+                    <i class="fa fa-users pr-0 md:pr-3"></i>
+                    <span class="pb-1 md:pb-0 text-xs md:text-base text-gray-600 md:text-gray-400 block md:inline-block">
+                        Ges des Notes
+                    </span>
+                </a>
+            </li>
+            <li class="item">
                 <a href="#" class="item-link md:py-3 hover:text-white hover:border-pink-500">
                     <i class="fa fa-wallet pr-0 md:pr-3"></i>
                     <span class="pb-1 md:pb-0 text-xs md:text-base text-gray-600 md:text-gray-400 block md:inline-block">

@@ -9,10 +9,16 @@ class Student extends Component
 {
     public $students;
 
+    public $confirmItemAdd = false;
+
     public function delete($idStudent)
     {
         $student = Eleve::find($idStudent);
         $student->delete();
+    }
+
+    public function addPayement(){
+        $this->emit('modalAddPayement');
     }
 
     public function render()

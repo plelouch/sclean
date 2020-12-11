@@ -1,4 +1,5 @@
 <div>
+    <livewire:from-payement/>
     <div class="flex flex-col">
         <div class="-my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
             <div class="py-2 align-middle inline-block min-w-full sm:px-6 lg:px-8">
@@ -62,9 +63,15 @@
                                     <div class="text-sm text-gray-900">{{ $student->ecoleProv }}</div>
                                 </td>
                                 <td class="px-6 py-4 whitespace-nowrap text-sm font-medium">
-                                    <a href="#" class=" px-1 py-1 bg-yellow-600 text-white mx-4 rounded">Modifier</a>
-                                    <button wire:click.prevent="delete({{ $student->id }})" class="ml-1 px-3 py-1 bg-red-600 text-white mx-4 rounded">
+                                    <a href="#" class=" px-1 py-1 bg-yellow-600 text-white mx-4 rounded">
+                                        <i class="fas fa-edit"></i>
+                                    </a>
+                                    <button wire:click.prevent="delete({{ $student->id }})" class="px-3 py-1 bg-red-600 text-white mx-4 rounded">
                                         <i class="fas fa-trash"></i>
+                                    </button>
+                                    <button wire:click.prevent="addPayement()"
+                                            class="px-3 py-1 bg-blue-600 text-white mx-4 rounded">
+                                        <i class="fas fa-money-bill"></i>
                                     </button>
                                 </td>
                         </tr>
@@ -77,3 +84,5 @@
         </div>
     </div>
 </div>
+<!-- This example requires Tailwind CSS v2.0+ -->
+

@@ -46,7 +46,7 @@ return [
     |
     */
 
-    'username' => 'email',
+    'username' => 'login',
 
     'email' => 'email',
 
@@ -131,11 +131,11 @@ return [
     */
 
     'features' => [
-        //Features::registration(),
-        //Features::resetPasswords(),
+        Features::registration(),
+        Features::resetPasswords(),
         // Features::emailVerification(),
-        //Features::updateProfileInformation(),
-        //Features::updatePasswords(),
+        Features::updateProfileInformation(),
+        Features::updatePasswords(),
         //Features::twoFactorAuthentication([
         //    'confirmPassword' => true,
         //]),
